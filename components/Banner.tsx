@@ -21,7 +21,7 @@ const Banner = ({ netflixOriginals }: Props) => {
     );
   }, [netflixOriginals]);
   return (
-    <div className="flex flex-col space-y-4 pt-32 pb-16 md:space-y-7 lg:h-[65vh] lg:pb-12">
+    <div className="flex flex-col space-y-4 pt-32 pb-16 md:space-y-7 lg:h-[65vh] lg:pb-32">
       <div className="absolute top-0 left-0 -z-10 h-[95vh] w-screen m-0">
         <Image
           layout="fill"
