@@ -36,7 +36,6 @@ const Header = () => {
           <li className="headerLink">Series</li>
           <li className="headerLink">Movies</li>
           <li className="headerLink">New & Popular</li>
-          <li className="headerLink">My List</li>
         </ul>
       </div>
 
