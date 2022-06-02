@@ -2,6 +2,7 @@ import Head from "next/head";
 import { useRecoilValue } from "recoil";
 import { modalState, movieState } from "../atoms/modalAtom.";
 import Banner from "../components/Banner";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Modal from "../components/Modal";
 import Row from "../components/Row";
@@ -64,6 +65,9 @@ const Home = ({
 
       {/* Modal */}
       {showModal && <Modal />}
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
